@@ -168,7 +168,7 @@ function like(video, atributo) {
 function eliminar() {
 
     sessionStorage.clear();
-    window.location = "login.html";
+    window.location = "index.html";
 }
 
 
