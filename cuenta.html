@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/LOGOFINAL.png" />
+    <link rel="stylesheet" href="./estilos/styles.css">
+    <title>Natural candy</title>
+</head>
+
+<body onload="cargarVideos()">
+    <header class="header">
+        <img class="header__img" src="./images/LOGOBANNER.png" alt="">
+        <div class="header__menu">
+            <div class="header__menu--profile">
+                <img src="./images/LOGOFINAL.png" alt="">
+                <p id="perfil-name">Perfil</p>
+            </div>
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a onclick="eliminar()">Cerrar Sesión</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+
+    <section class="principal-container">
+        <section class="main">
+            <h2 class="main__tittle">Puedes ver que recetas te gustan más o eliminarlas</h2>
+            <div class="video-container">
+
+                <div id="1" class="video">
+                    <Iframe width="460" height="215" src="https://www.youtube.com/embed/b2ijnNYKOUg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></Iframe>
+                    <div id="like-1" class="like-container">
+                        <p class="like-tittle">Alitas de mango picantes</p>
+                        <img class="like-image" id="like-image1" onclick=" unLike(1) "
+                            src="./images/PERABLANCOYNEGRO.png" />
+
+
+
+                    </div>
+
+
+                </div>
+                <div id="2" class="video">
+                    <Iframe width="460" height="215" src="https://www.youtube.com/embed/b2ijnNYKOUg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></Iframe>
+                    <div id="like-3" class="like-container">
+                        <p class="like-tittle">Alitas de mango picantes</p>
+                        <img class="like-image" id="like-image2" onclick=" unLike(2) "
+                            src="./images/PERABLANCOYNEGRO.png" />
+
+
+
+                    </div>
+
+                </div>
+                <div id="3" class="video">
+                    <Iframe width="460" height="215" src="https://www.youtube.com/embed/b2ijnNYKOUg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></Iframe>
+                    <div id="like-3" class="like-container">
+                        <p class="like-tittle">Alitas de mango picantes</p>
+                        <img class="like-image" id="like-image3" onclick=" unLike(3) "
+                            src="./images/PERABLANCOYNEGRO.png" />
+
+
+
+
+                    </div>
+
+                </div>
+                <div id="4" class="video">
+                    <Iframe width="460" height="215" src="https://www.youtube.com/embed/b2ijnNYKOUg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></Iframe>
+                    <div id="like-4" class="like-container">
+                        <p class="like-tittle">Alitas de mango picantes</p>
+                        <img class="like-image" id="like-image4" onclick=" unLike(4) "
+                            src="./images/PERABLANCOYNEGRO.png" />
+
+
+
+
+                    </div>
+
+                </div>
+                <div id="5" class="video">
+                    <Iframe width="460" height="215" src="https://www.youtube.com/embed/b2ijnNYKOUg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></Iframe>
+                    <div id="like-5" class="like-container">
+                        <p class="like-tittle">Alitas de mango picantes</p>
+                        <img class="like-image" id="like-image5" onclick=" unLike(5) "
+                            src="./images/PERABLANCOYNEGRO.png" />
+
+
+
+
+
+
+                    </div>
+
+                </div>
+                <div id="6" class="video">
+                    <Iframe width="460" height="215" src="https://www.youtube.com/embed/b2ijnNYKOUg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></Iframe>
+                    <div id="like-6" class="like-container">
+                        <p class="like-tittle">Alitas de mango picantes</p>
+                        <img class="like-image" id="like-image6" onclick=" unLike(6) "
+                            src="./images/PERABLANCOYNEGRO.png" />
+
+
+
+                    </div>
+
+                </div>
+                <div id="7" class="video">
+                    <Iframe width="460" height="215" src="https://www.youtube.com/embed/b2ijnNYKOUg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></Iframe>
+                    <div id="like-7" class="like-container">
+                        <p class="like-tittle">Alitas de mango picantes</p>
+                        <img class="like-image" id="like-image7" onclick=" unLike(7) "
+                            src="./images/PERABLANCOYNEGRO.png" />
+
+                    </div>
+
+                </div>
+                <div id="8" class="video">
+                    <Iframe width="460" height="215" src="https://www.youtube.com/embed/b2ijnNYKOUg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></Iframe>
+                    <div id="like-8" class="like-container">
+                        <p class="like-tittle">Alitas de mango picantes</p>
+                        <img class="like-image" id="like-image8" onclick=" unLike(8) "
+                            src="./images/PERABLANCOYNEGRO.png" />
+
+                    </div>
+
+                </div>
+                <div id="9" class="video">
+                    <Iframe width="460" height="215" src="https://www.youtube.com/embed/b2ijnNYKOUg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></Iframe>
+                    <div id="like-9" class="like-container">
+                        <p class="like-tittle">Alitas de mango picantes</p>
+                        <img class="like-image" id="like-image9" onclick=" unLike(9) "
+                            src="./images/PERABLANCOYNEGRO.png" />
+
+                    </div>
+
+                </div>
+                <div id="10" class="video">
+                    <Iframe width="460" height="215" src="https://www.youtube.com/embed/b2ijnNYKOUg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></Iframe>
+                    <div id="like-10" class="like-container">
+                        <p class="like-tittle">Alitas de mango picantes</p>
+                        <img class="like-image" id="like-image10" onclick=" unLike(10) "
+                            src="./images/PERABLANCOYNEGRO.png" />
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+    </section>
+
+    <script src="./index.js"></script>
+    <footer class="footer">
+        <a href="/">Términos de uso</a>
+        <a href="/">Declaración de privacidad</a>
+        <a href="/">Centro de ayuda</a>
+    </footer>
+</body>
+
+</html>
