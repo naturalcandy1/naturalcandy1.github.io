@@ -35,11 +35,11 @@ var user4 = {
 }
 
 var user5 = {
-    nombre: '1',
-    correo: '1',
-    contraseña: '',
+    nombre: 'Nicol',
+    correo: 'Nicolperez878@gmail.com',
+    contraseña: 'Calabazita31',
     activo: false,
-    videoQueLeGustan: []
+    videoQueLeGustan: [2,4,5]
 }
 
 
