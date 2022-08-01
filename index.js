@@ -18,25 +18,25 @@ var user2 = {
 
 
 var user3 = {
-    nombre: 'Nicol',
-    correo: 'nicol92@gmail.com',
-    contraseña: '12345',
+    nombre: 'Paola',
+    correo: 'mccarolcn@gmail.com',
+    contraseña: '123456personal@1',
     activo: false,
     videoQueLeGustan: [3, 6, 8]
 }
 
 
 var user4 = {
-    nombre: 'Camilo',
-    correo: 'camilo94@gmail.com',
-    contraseña: '12345',
+    nombre: 'Darcy Torres',
+    correo: 'andr33aamartinez@gmail.com',
+    contraseña: '246proyecto',
     activo: false,
     videoQueLeGustan: [1, 3, 5, 7]
 }
 
 var user5 = {
     nombre: 'Nicol',
-    correo: 'Nicolperez878@gmail.com',
+    correo: 'nicolperez878@gmail.com',
     contraseña: 'Calabazita31',
     activo: false,
     videoQueLeGustan: [2,4,5]
@@ -44,15 +44,24 @@ var user5 = {
 
 
 var user6 = {
-    nombre: '2',
-    correo: '2',
-    contraseña: '',
+    nombre: 'Adriana',
+    correo: 'al6004554@gmail.com',
+    contraseña: '456proyecto01',
+    activo: false,
+    videoQueLeGustan: []
+}
+
+var user7 = {
+    nombre: 'Sharik',
+    correo: 'tatiana06@gmail.com',
+    contraseña: '456proyecto02',
     activo: false,
     videoQueLeGustan: []
 }
 
 
-var usuarios = [user1, user2, user3, user4, user5, user6];
+
+var usuarios = [user1, user2, user3, user4, user5, user6, user7];
 var usuarioAValidar = [];
 
 function login() {
