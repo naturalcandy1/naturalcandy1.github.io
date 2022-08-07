@@ -290,11 +290,14 @@ justify-content: space-between;
 .footer a:hover {
   text-decoration: underline;
 }
-
-body {
-  height: 400px;
+body{
+            
+  width:30%;
+  height:30%;
+  margin:0 auto;
+  background-size: cover;
+  background-color:grey;
   background-image: url("../images/Fondo.jpeg");
-background-size: cover;
-  background-repeat:no-repeat;
-  background-position: center center;
+  background-position: 50% 50%;
+  
 }
