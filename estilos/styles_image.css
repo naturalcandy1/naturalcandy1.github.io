@@ -331,15 +331,6 @@ navbar-left ul li a:hover{
 
 /*Estilos del juego*/
 
-/* (A) CONTAINER */
-#mem-game {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 10px;
-  max-width: 420px;
-  margin: 0 auto;
-}
-
 /* (B) CARDS */
 .mem-card {
   padding: 10px;
