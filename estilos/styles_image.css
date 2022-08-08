@@ -322,11 +322,8 @@ nav {
 .menu {
 	display: none;
 }
-.nav-logo {
-	width: 100px;
-}
-.navbar-left ul,
-.navbar-right ul {
+
+section.navbar-left ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -334,37 +331,33 @@ nav {
 	align-items: center;
 	height: 60px;
 }
-.navbar-left {
+section.navbar-left {
 	display: flex;
 }
-.navbar-left ul {
+section.navbar-left ul {
 	margin-left: 12px;
 }
-.navbar-left ul li a {
+section.navbar-left ul li a {
 	text-decoration: none;
 	color: var(--very-light-pink);
 	border: 1px solid var(--white);
 	padding: 8px;
 	border-radius: 8px;
 }
-.navbar-left ul li a:hover{
+section.navbar-left ul li a:hover{
 	border: 1px solid var(--hospital-green);
 	color: var(--hospital-green);
 }
-.navbar-email {
-	color: var(--very-light-pink);
-	font-size: var(--sm);
-	margin-right: 12px;
-}
+
 
 @media (max-width: 640px) {
 	.menu {
 		display: block;
 	}
-	.navbar-left ul {
+	section.navbar-left ul {
 		display: none;
 	}
-	.navbar-email {
+	section.navbar-email {
 		display: none;
 	}
 }
