@@ -354,10 +354,10 @@ section.navbar-left ul li a:hover{
 	.menu {
 		display: block;
 	}
-	section.navbar-left ul {
+	.navbar-left ul {
 		display: none;
 	}
-	section.navbar-email {
+	.navbar-email {
 		display: none;
 	}
 }
