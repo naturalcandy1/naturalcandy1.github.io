@@ -113,7 +113,7 @@ function registrar() {
     var arregloDeLikes = [0];
     sessionStorage.setItem("data", JSON.stringify(arregloDeLikes));
 
-    window.location = "home.html";
+    window.location = "inicio.html";
 
 
 
