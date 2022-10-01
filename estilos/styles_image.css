@@ -84,9 +84,9 @@ body {
   
   .main__tittle {
     font-size: 25px;
-    color: #686d76;
+    color:red;
     margin: 20px 100px;
-    justify-content: center
+    text-align: center;
   }
   
   .input {
