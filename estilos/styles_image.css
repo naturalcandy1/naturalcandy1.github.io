@@ -340,3 +340,22 @@ navbar-left ul li a:hover{
 .mem-card.open { background: #fea; }
 .mem-card.right { background: #b3ffc0; }
 .mem-card.wrong { background: #ffb6b6; }
+
+
+/*Estilos de las imagenes del inicio*/
+
+* {
+  box-sizing: border-box;
+}
+
+.columna {
+  float: left;
+  width: 33%;
+  padding-right: 5px;
+}
+
+.fila::after {
+  content: "";
+  clear: both;
+  display: table;
+}
