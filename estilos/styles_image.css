@@ -86,6 +86,7 @@ body {
     font-size: 25px;
     color: #686d76;
     margin: 20px 100px;
+    justify-content: center
   }
   
   .input {
