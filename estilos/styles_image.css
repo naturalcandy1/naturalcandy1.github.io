@@ -360,7 +360,7 @@ navbar-left ul li a:hover{
   display: table;
 }
 
-img {
+.cuadricula {
   /* Para que sea responsiva */
   width: 100%;
 }
