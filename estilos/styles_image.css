@@ -359,3 +359,8 @@ navbar-left ul li a:hover{
   clear: both;
   display: table;
 }
+
+img {
+  /* Para que sea responsiva */
+  width: 100%;
+}
