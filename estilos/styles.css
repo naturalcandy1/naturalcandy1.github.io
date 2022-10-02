@@ -290,3 +290,7 @@ justify-content: space-between;
 .footer a:hover {
   text-decoration: underline;
 }
+
+.mem-card img{
+  width: 80px;
+}
