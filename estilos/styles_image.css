@@ -16,8 +16,7 @@ body {
   
   .header__img { 
     height: 80px;
-    margin-top: 10 px;
-    margin-left: 10px;
+    margin-left: 570px;
   }
   
   .header__menu {
@@ -83,6 +82,14 @@ body {
   background-repeat:no-repeat;
   background-position: center center;  
   }
+
+  .main1 {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    
+    }
   
   .main__tittle {
     font-size: 25px;
@@ -329,7 +336,6 @@ navbar-left ul li a:hover{
   padding: 8px;
   border-radius: 8px;
   position: relative;
-  left: 50%;
   margin: -25px 0 0 -25px
 }
 
@@ -367,8 +373,11 @@ navbar-left ul li a:hover{
 .cuadricula {
   /* Para que sea responsiva */
   width: 100%;
+  margin-right: 7px;
 }
 
 .imagenes {
   width: 100%;
+  margin-right: 7px;
+  padding: 20px;
 }
