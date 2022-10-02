@@ -2,6 +2,15 @@ body {
     margin: 0;
     font-family: "Roboto", sans-serif;
   }
+
+  
+body {
+  height: 400px;
+  background-image: url("../images/Fondo_Pag.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
   
   .header {
     background-color: white;
@@ -292,7 +301,7 @@ body {
     text-decoration: underline;
   }
 
-.main{           
+/*.main{           
     width:98.5%;
     height:800px;
     margin:0 auto;
@@ -301,6 +310,7 @@ body {
     background-image: url("../images/Fondo_Pag.jpg");
     background-position: 50% 50%; 
   }
+*]/
 
   /*Variables Header*/
   :root {
