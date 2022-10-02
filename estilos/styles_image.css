@@ -4,9 +4,7 @@ body {
   }
 
   
-body {
-  height: 400px;
-  background-image: url("../images/Fondo_Pag.jpg");
+.body {
   background-size: cover;
   background-repeat:no-repeat;
   background-position: center center;
@@ -87,7 +85,7 @@ body {
     width: 100%;
     padding: 10px;
   justify-content: center;
-    
+  background-image: url("../images/Fondo_Pag.jpg");
     
   }
   
@@ -373,5 +371,9 @@ navbar-left ul li a:hover{
 
 .cuadricula {
   /* Para que sea responsiva */
+  width: 100%;
+}
+
+.imagenes {
   width: 100%;
 }
