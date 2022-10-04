@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: "Roboto", sans-serif;
   }
+
   
   .header {
     background-color: white;
@@ -13,11 +14,9 @@ body {
     align-items: center;
   }
   
-  .header__img {
-    
+  .header__img { 
     height: 80px;
-    margin-top: 10 px;
-    margin-left: 10px;
+    margin-left: 570px;
   }
   
   .header__menu {
@@ -74,13 +73,23 @@ body {
   }
   
   .main {
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  justify-content: center;
+  background-image: url("../images/Fondo_Pag.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;  
+  }
+
+  .main1 {
     height: auto;
     width: 100%;
     padding: 10px;
-  justify-content: center;
+    justify-content: center;
     
-    
-  }
+    }
   
   .main__tittle {
     font-size: 25px;
@@ -292,16 +301,6 @@ body {
     text-decoration: underline;
   }
 
-.main{           
-    width:98.5%;
-    height:800px;
-    margin:0 auto;
-    background-size: cover;
-    background-color:grey;
-    background-image: url("../images/Fondo_Pag.jpg");
-    background-position: 50% 50%; 
-  }
-
   /*Variables Header*/
   :root {
     --white: #FFFFFF;
@@ -328,6 +327,16 @@ nav {
 navbar-left ul li a:hover{
 	border: 1px solid var(--hospital-green);
 	color: var(--hospital-green);
+}
+
+.botones{
+  text-decoration: none;
+  color: indigo;
+  border: 1px solid var(--white);
+  padding: 8px;
+  border-radius: 8px;
+  position: relative;
+  margin: -25px 0 0 -25px
 }
 
 /*Estilos del juego*/
@@ -364,4 +373,11 @@ navbar-left ul li a:hover{
 .cuadricula {
   /* Para que sea responsiva */
   width: 100%;
+  margin-right: 7px;
+}
+
+.imagenes {
+  width: 100%;
+  margin-right: 7px;
+  padding: 20px;
 }

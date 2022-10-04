@@ -12,7 +12,7 @@
     <title>Natural Candy</title>
 </head>
 
-<body onload="cargarLikes()">
+<body class = "body" onload="cargarLikes()">
     <header class="header">
         <img class="header__img" src="./images/LOGOBANNER.jpg" alt="">
         <div class="header__menu">
@@ -44,35 +44,28 @@
                 	align-items: center;
                 	height: 60px;">
                         <li>
-                            <a href="./home.html" style = 
-                            "text-decoration: none;
-                            color:indigo;
-                            border: 1px solid var(--white);
-                            padding: 8px;
-                            border-radius: 8px;">Todos los videos</a>
+                            <a class = "botones" href="./home.html" 
+                            style =
+                            "margin-right: 100px;
+                            margin-left: 390px;"
+                          >Todos los videos</a>
                             
                         </li>
                         <li>
-                            <a href="/juego.html" style = 
-                            "text-decoration: none;
-                            color:indigo;
-                            border: 1px solid var(--white);
-                            padding: 8px;
-                            border-radius: 8px;">Juego</a>
+                            <a class = "botones" href="/juego.html"                           
+                            >Juego</a>
                         </li>
                         <li>
-                            <a href="/"  style = 
-                            "text-decoration: none;
-                            color:indigo;
-                            border: 1px solid var(--white);
-                            padding: 8px;
-                            border-radius: 8px;">Recomendaciones</a>
+                            <a class = "botones" href="/" style =
+                            "margin-left: 60px;"   
+                            >Recomendaciones</a>
                         </li>
                        
                     </ul>
                 </div>
             </nav>
 
+            <section class="main1"></section>
             <div class="fila">
                 <div class="columna">
                     <img class ="cuadricula" src="images/04.jpg" alt>
@@ -85,10 +78,104 @@
                 </div>
             </div>
             <h2 class="main__tittle">¿Sabes cuanto azúcar necesitas al día?</h2>
+            <img class = "imagenes" src="images/05.jpg">
+            <h2 class="main__tittle">¿Conoces las consecuencias de consumir más azúcar del debido?</h2>
+            <img class = "imagenes" src="images/02.jpg">
+            <img class = "imagenes" src="images/03.jpg">  
 
-            <img src="images/02.jpg">
-            <img src="images/03.jpg">  
-            <img src="images/05.jpg">
+            <div>
+                <img src="images/Heart.jpg" style =
+                "width: 400px;
+                margin-right: 7px;
+                padding: 20px;"> 
+                <div class = "texto" style = 
+                "display: inline-block;
+                vertical-align: top;">
+                <b>Hipertensión y colesterol</b>
+                <p>Consumir exceso azúcar causa aumento en la tensión y un nivel de colesterol dañino.</p>   
+            </div>
+                <!-- esto es lo que quiero que vaya a la derecha -->
+              </div>
+              
+            <div>
+                <img src="images/Caries.jpg" style =
+                "width: 400px;
+                margin-right: 7px;
+                padding: 20px;"> 
+                <div class = "texto" style = 
+                "display: inline-block;
+                vertical-align: top;">
+                <b>Caries dentales</b>
+                <p>Consecuencia más leve, el consumo del consumo excesivo del azúcar y una mala higiene bucal hace que crezcan bacterias.</p>   
+            </div>
+              </div>
+
+              <div>
+                <img src="images/Peso.jpg" style =
+                "width: 400px;
+                margin-right: 7px;
+                padding: 20px;"> 
+                <div class = "texto" style = 
+                "display: inline-block;
+                vertical-align: top;">
+                <b>Aumento de peso</b>
+                <p>Posible señal de que estas comiendo excesivamente azúcar, ya que al no tener un control sano del azúcar que consumes </p>
+                    <p>puedes descontrolar tu peso.</p>   
+            </div>
+              </div>
+
+            
+              <div>
+                <img src="images/Peso.jpg" style =
+                "width: 400px;
+                margin-right: 7px;
+                padding: 20px;"> 
+                <div class = "texto" style = 
+                "display: inline-block;
+                vertical-align: top;">
+                <b>Diabetes</b>
+                <p>Un aumento en el azúcar puede llegar a ser una principal causa de la diabetes. </p> 
+            </div>
+              </div>
+
+              <h2 class="main__tittle">CUIDADO CON ESTOS ALIMENTOS</h2>
+
+              <div>
+                <img src="images/Bebidas.jpg" style =
+                "width: 400px;
+                margin-right: 7px;
+                padding: 20px;"> 
+                <div class = "texto" style = 
+                "display: inline-block;
+                vertical-align: top;">
+                <b>BEBIDAS AZUCARADAS</b>
+            </div>
+        </div>
+
+        <div>
+                <img src="images/Dulces.jpg" style =
+                "width: 400px;
+                margin-right: 7px;
+                padding: 20px;"> 
+                <div class = "texto" style = 
+                "display: inline-block;
+                vertical-align: top;">
+                <b>DULCES</b>
+            </div>
+        </div>
+
+        <div>
+                <img src="images/Productos.jpg" style =
+                "width: 400px;
+                margin-right: 7px;
+                padding: 20px;"> 
+                <div class = "texto" style = 
+                "display: inline-block;
+                vertical-align: top;">
+                <b>PRODUCTOS ALTOS EN AZUCAR</b>
+            </div>
+        </div>
+        </section>
    
         </section>
         
@@ -97,11 +184,11 @@
 
     <script src="./index.js"></script>
 
-    <footer class="footer">
-        <a href="/">Términos de uso</a>
-        <a href="/">Declaración de privacidad</a>
-        <a href="/">Centro de ayuda</a>
-    </footer>
-</body>
 
+</body>
+<footer class="footer">
+    <a href="/">Términos de uso</a>
+    <a href="/">Declaración de privacidad</a>
+    <a href="/">Centro de ayuda</a>
+</footer>
 </html>

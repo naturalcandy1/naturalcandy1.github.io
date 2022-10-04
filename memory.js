@@ -4,7 +4,7 @@ var mem = {
     hWrap : null, // HTML game wrapper
     hCards : null, // HTML cards
     // (A2) GAME SETTINGS
-    sets : 6, // Total number of cards to match
+    sets : 8, // Total number of cards to match
     hint : 1000, // How long to show mismatched cards
     url : "", // Optional, URL to images
     // (A3) FLAGS
