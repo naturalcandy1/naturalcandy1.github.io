@@ -293,3 +293,14 @@ justify-content: space-between;
 .mem-card img{
   width: 80px;
 }
+
+/*Estilos página créditos*/
+
+.image-creator{
+  width: 400px;
+}
+
+.image_name{
+  color:red; 
+  margin-bottom: 80px;
+}
