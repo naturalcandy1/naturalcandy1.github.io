@@ -404,15 +404,17 @@ navbar-left ul li a:hover{
 }
 
 .images-inicio{
-  width: 400px; 
+  width: 600px; 
   margin-right: 30px; 
   margin-left: 30px;
   margin-bottom: 30px;
+
 }
 
 .images-inicio1{
-  width: 400px; 
+  width: 600px; 
   margin-right: 30px; 
   margin-left: 30px;
   margin-bottom: 30px;
+  color: darkblue;
 }
