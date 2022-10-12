@@ -331,6 +331,7 @@ body {
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
+    font-size: 20px;
   }
   
 nav {
