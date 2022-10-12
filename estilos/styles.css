@@ -72,14 +72,36 @@ ul:hover {
   background: whitesmoke;
 }
 
+/*
 .main {
   height: auto;
   width: 100%;
   padding: 10px;
 justify-content: center;
-  
-  
 }
+*/
+
+body {
+  height: 800px;
+  background-image: url("../images/Fondo_Pag.jpg");
+  background-size: cover;
+  background-size: 90rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+
+
+.main {
+  height: 800px;
+  background-image: url("../images/Fondo_Pag.jpg");
+  background-size: cover;
+  background-size: 90rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  }
 
 .main__tittle {
   font-size: 25px;
@@ -292,4 +314,15 @@ justify-content: space-between;
 
 .mem-card img{
   width: 80px;
+}
+
+/*Estilos página créditos*/
+
+.image-creator{
+  width: 400px;
+}
+
+.image_name{
+  color:red; 
+  margin-bottom: 80px;
 }
