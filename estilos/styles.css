@@ -71,15 +71,6 @@ ul:hover {
   background: whitesmoke;
 }
 
-/*
-.main {
-  height: auto;
-  width: 100%;
-  padding: 10px;
-justify-content: center;
-}
-*/
-
 body {
   height: 800px;
   background-image: url("../images/Fondo_Pag.jpg");
@@ -90,8 +81,6 @@ body {
   background-attachment: fixed;
 }
 
-
-
 .main {
   height: 800px;
   background-image: url("../images/Fondo_Pag.jpg");
@@ -100,6 +89,13 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+  }
+
+.main1 {
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  justify-content: center;
   }
 
 .main__tittle {
@@ -358,4 +354,32 @@ justify-content: space-between;
 .boton_personalizado:hover{
   color: #1883ba;
   background-color: #ffffff;
+}
+
+/*Estilos de las imagenes del inicio*/
+
+* {
+  box-sizing: border-box;
+}
+
+.columna {
+  float: left;
+  width: 33%;
+  padding-right: 5px;
+}
+
+.fila::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.cuadricula {
+  /* Para que sea responsiva */
+  width: 100%;
+  margin-right: 20px;
+}
+
+.fila{
+  margin-left: 20px;
 }
