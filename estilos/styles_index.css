@@ -73,9 +73,9 @@ body {
   
   body {
     height: 800px;
-    background-image: url("../images/Fondo_Pag.jpg");
+    background-image: url("../images/Fondo_Index.jpg");
     background-size: cover;
-    background-size: 90rem;
+    background-size: 68rem;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -85,7 +85,7 @@ body {
 
   .main {
     height: 800px;
-    background-image: url("../images/Fondo_Pag.jpg");
+    background-image: url("../images/Fondo_Index.jpg");
     background-size: cover;
     background-size: 90rem;
     background-repeat: no-repeat;
@@ -130,6 +130,140 @@ body {
   
   ::placeholder {
     color: #686d76;
+  }
+  
+  .video-container {
+    width: 100%;
+    position: relative;
+  justify-content: center;
+    padding: 30px;
+  
+  
+  }
+  
+  .video{
+    position: relative;
+    display: inline-block;
+    margin: 20px 10px;
+    justify-content: center;
+   
+  }
+  
+  
+  .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+  }
+  
+  .login__container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid #686d76;
+    border-radius: 40px;
+    color: #686d76;
+    padding: 60px 68px 40px;
+    min-height: 700px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  .login__container--form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login__container--form label {
+    font-size: 14px;
+  }
+  
+  .login__container--remember-me {
+    color: #686d76;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .login__container--remember-me a {
+    color: #686d76;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .login__container--remember-me a:hover {
+    text-decoration: underline;
+  }
+  
+  .login__container--social-media > div {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .login__container--social-media > div > img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .login__container--register {
+    font-size: 14px;
+  }
+  
+  .like-container{
+    height: 50px;
+    width: 460px;
+    border: 1px solid #686d76;
+    border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+    
+  }
+  
+  .like-tittle{
+    color: #686d76;
+    margin-left: 10px;
+    
+  }
+  
+  .like-image {
+    height: 48px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .add-favorites{
+      height: 48px;
+      margin-right: 10px;
+  }
+  
+  .login__container--register a {
+    font-size: 16px;
+    color: #686d76;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login__container--register a:hover {
+    text-decoration: underline;
+  }
+  
+  .login__container--sesion {
+    display: flex;
+    justify-content: center;
+  }
+  .login__container--sesion a {
+    font-size: 16px;
+    color: #686d76;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login__container--sesion a:hover {
+    text-decoration: underline;
   }
   
   .input {
@@ -279,30 +413,4 @@ navbar-left ul li a:hover{
   margin-left: 30px;
   margin-bottom: 30px;
   color: darkblue;
-}
-
-.idc-box {    
-  border: 1px solid #491485;;   
-  display: table;    
-  font-size: 95%;    
-  margin-bottom: 1em;    
-  padding: 20px;    
-  width: auto;
-  margin-left: 350px;
-  margin-top: 30px;
-}
-
-.idc-box .idc-titulo {    
-  font-weight: 700;    
-  text-align: center;
- } 
- 
- .idc-box li, .idc-box ul, .idc-box ul li{    
-  padding: 0 5px;   
-  list-style: outside none none !important; 
-}
-
-  
-.idc-box li a{
-  color:#491485;
 }

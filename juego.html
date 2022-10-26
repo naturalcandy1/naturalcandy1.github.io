@@ -10,6 +10,20 @@
     <link rel="shortcut icon" href="./images/LOGOFINAL.png" />
     <link rel="stylesheet" href="./estilos/styles.css">
     <title>Natural Candy</title>
+
+    <script>
+        function mostrar(id)
+        {
+            var objeto=document.getElementById(id)
+            if(objeto.style.display=="block")
+                objeto.style.display="none";
+            else
+                objeto.style.display="block";
+        }
+    </script>
+    <style>
+        .oculto {display:none;}
+    </style>
 </head>
 
 <body onload="cargarLikes()">
@@ -30,12 +44,21 @@
 
     <section class="principal-container">
         <section class="main">
-            <h2 class="main__tittle">PROBEMOS TU MEMORIA</h2>
-            <div id="mem-game" style = " display: grid;
-            grid-template-columns: auto auto auto auto;
-            grid-gap: 10px;
-            max-width: 420px;
-            margin: 0 auto;"></div>
+            <h2 class="main__tittle" style="margin-left: 520px;">PROBEMOS TU MEMORIA</h2>
+
+
+                <form>
+                    <div class = "boto" style = "margin-left: 600px;">
+                    <input class = "boton_personalizado" type="button" onclick="mostrar('contenido1')" value="Instrucciones"> 
+                    </div> 
+                    <div class = "boton" style = "margin-left: 415px; margin-top: 20px;">                   
+                    <img src="./images/00.jpg" class="oculto" id="contenido1" >
+                    </div>  
+                </form>
+
+            
+            <div class = "mem-game" id="mem-game"></div>
+
         </section>
     </section>
     <script src="./memory.js"></script>
