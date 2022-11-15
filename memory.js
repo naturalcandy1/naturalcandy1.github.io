@@ -96,7 +96,7 @@ var mem = {
           mem.hCards[idx].classList.add("right");
           mem.last = null;
           if (mem.matches.length == mem.sets * 2) {
-            alert("YOU WIN! TOTAL MOVES " + mem.moves);
+            alert("GANASTE! TOTAL DE MOVIMIENTOS " + mem.moves);
             mem.init();
           }
         }
